@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="home">
+        
+        <div class="head">
+            
+            <h2>crud</h2>
+            <div class="inputs">
+                <div class="div-input">
+                    <label for="productName">product name</label>
+                    <input type="text" id="productName"  placeholder="text">
+                    </div>
+                    <div class="div-input">
+                        <label for="productPrice">product price</label>
+                    <input type="number" id="productPrice"  placeholder="price">
+                        </div>
+        
+                    <div class="div-input">
+                        <label for="productCateg">product categ</label>
+                        <input type="text" id="productCateg"  placeholder="text">
+                    </div>
+                   
+                    <div class="div-input">
+                    <label for="productDescription">product description</label>
+                    <input type="text" id="productDescription"  placeholder="text">
+        
+                   </div>
+
+            </div>
+           
+            <button onclick="addProduct()">Addproduct</button>
+            <input type="text" id="inputsearch" placeholder="search" oninput="search()">
+
+
+
+          
+        </div>
+
+    </div>
+<section class="Table">
+<div class="table">
+    <table >
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Action</th>
+            
+            </tr>
+        </thead>
+<tbody id="hello">
+    
+</tbody>
+
+
+
+
+    </table>
+</div>
+
+
+</section>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
